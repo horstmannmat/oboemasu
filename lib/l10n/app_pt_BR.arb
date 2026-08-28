@@ -1,0 +1,38 @@
+{
+  "@@locale": "pt_BR",
+  "appTitle": "Oboemasu",
+  "kana": "Kana",
+  "hiragana": "Hiragana",
+  "katakana": "Katakana",
+  "kanji": "Kanji",
+  "start": "Iniciar",
+  "revealIn": "Revelar em",
+  "progress": "{current} de {total}",
+  "finished": "Concluído",
+  "meaning": "Significado",
+  "about": "Sobre",
+  "practiceTitle": "Melhore sua memória muscular praticando a escrita",
+  "practiceCopy": "Escolha as opções, pegue papel e caneta e clique em Começar.",
+  "practiceCopy2": "Escreva o Kana ou Kanji antes que o tempo acabe e veja as animações dos traços.",
+  "kanaSelectionTitle": "Escolha hiragana, katakana ou ambos",
+  "kanjiSelectionTitle": "Escolha um nível"
+  ,"kanaPracticeCopy": "Escolha katakana, hiragana ou ambos, pegue papel e caneta e clique em Começar.","kanaPracticeCopy2": "Escreva o Kana antes que o tempo acabe e veja as animações dos traços.","kanjiPracticeCopy": "Escolha os níveis de kanji, pegue papel e caneta e clique em Começar.","kanjiPracticeCopy2": "Escreva o Kanji antes que o tempo acabe e veja as animações dos traços."
+  ,"helloWorld": "Olá mundo!"
+  ,"chooseTitle": "Escolha os níveis de {title}"
+  ,"charactersAvailable": "{count} caracteres disponíveis"
+  ,"selectedCharacters": "Caracteres selecionados"
+  ,"dataLoadError": "Não foi possível carregar os dados de {title}."
+  ,"aboutTitle": "Sobre o Oboemasu"
+  ,"aboutCopy": "Pratique a ordem dos traços de kana e kanji japoneses."
+  ,"aboutWhyTitle": "Por que criei este projeto"
+  ,"aboutWhyCopy": "Ao aprender japonês, percebi que reconhecer e ler os caracteres não era suficiente."
+  ,"aboutWhyCopy2": "A maioria dos aplicativos de flashcards mostra hiragana ou katakana e pede que você leia."
+  ,"aboutSource": "Você pode ver o código-fonte deste projeto em"
+  ,"aboutCredits": "Créditos"
+  ,"aboutKanjiCredit": "Os dados dos traços de kanji vêm de"
+  ,"aboutKanaCredit": "Os dados dos traços de kana vêm de"
+  ,"aboutReferences": "Referências"
+  ,"aboutReferencesCopy": "Estes recursos ajudaram a criar a experiência de estudo:"
+  ,"aboutCopyright": "Direitos autorais"
+  ,"aboutCopyrightCopy": "Este site é um projeto de código aberto sob a licença GNU AGPL."
+}

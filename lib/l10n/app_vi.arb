@@ -1,0 +1,38 @@
+{
+  "@@locale": "vi",
+  "appTitle": "Oboemasu",
+  "kana": "Kana",
+  "hiragana": "Hiragana",
+  "katakana": "Katakana",
+  "kanji": "Kanji",
+  "start": "Bắt đầu",
+  "revealIn": "Hiện sau",
+  "progress": "{current} / {total}",
+  "finished": "Đã hoàn thành",
+  "meaning": "Ý nghĩa",
+  "about": "Giới thiệu",
+  "practiceTitle": "Cải thiện trí nhớ cơ bắp bằng cách luyện viết",
+  "practiceCopy": "Chọn tùy chọn, chuẩn bị giấy và bút rồi nhấn Bắt đầu.",
+  "practiceCopy2": "Viết Kana hoặc Kanji trước khi hết giờ, sau đó xem hoạt ảnh các nét.",
+  "kanaSelectionTitle": "Chọn hiragana, katakana hoặc cả hai",
+  "kanjiSelectionTitle": "Chọn một cấp độ"
+  ,"kanaPracticeCopy": "Chọn katakana, hiragana hoặc cả hai, chuẩn bị giấy và bút rồi nhấn Bắt đầu.","kanaPracticeCopy2": "Viết Kana trước khi hết giờ, sau đó xem hoạt ảnh các nét.","kanjiPracticeCopy": "Chọn các cấp độ kanji, chuẩn bị giấy và bút rồi nhấn Bắt đầu.","kanjiPracticeCopy2": "Viết Kanji trước khi hết giờ, sau đó xem hoạt ảnh các nét."
+  ,"helloWorld": "Xin chào thế giới!"
+  ,"chooseTitle": "Chọn cấp độ {title}"
+  ,"charactersAvailable": "Có {count} ký tự"
+  ,"selectedCharacters": "Ký tự đã chọn"
+  ,"dataLoadError": "Không thể tải dữ liệu {title}."
+  ,"aboutTitle": "Giới thiệu Oboemasu"
+  ,"aboutCopy": "Luyện thứ tự nét kana và kanji tiếng Nhật."
+  ,"aboutWhyTitle": "Tại sao tôi tạo dự án này"
+  ,"aboutWhyCopy": "Trong quá trình học tiếng Nhật, tôi nhận ra rằng nhận biết và đọc chữ là chưa đủ."
+  ,"aboutWhyCopy2": "Hầu hết ứng dụng thẻ ghi nhớ hiển thị hiragana hoặc katakana và yêu cầu bạn đọc."
+  ,"aboutSource": "Bạn có thể xem mã nguồn của dự án tại"
+  ,"aboutCredits": "Ghi công"
+  ,"aboutKanjiCredit": "Dữ liệu nét kanji đến từ"
+  ,"aboutKanaCredit": "Dữ liệu nét kana đến từ"
+  ,"aboutReferences": "Tài liệu tham khảo"
+  ,"aboutReferencesCopy": "Các tài nguyên này đã giúp tạo trải nghiệm học tập:"
+  ,"aboutCopyright": "Bản quyền"
+  ,"aboutCopyrightCopy": "Đây là dự án mã nguồn mở theo giấy phép GNU AGPL."
+}

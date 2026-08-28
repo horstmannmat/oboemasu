@@ -1,0 +1,36 @@
+name: oboemasu
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  liquid_glass_widgets: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: any
+  path_drawing: ^1.0.1
+  url_launcher: ^6.3.2
+  xml: ^7.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/kana/
+    - assets/kana/data/
+    - assets/kana/kanastrokes-dist/
+    - assets/kana/kanastrokes-dist/hiragana/
+    - assets/kana/kanastrokes-dist/katakana/
+    - assets/kanji/
+    - assets/kanji/data/
+    - assets/kanji/kanjistrokes-dist/

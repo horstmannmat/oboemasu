@@ -1,0 +1,38 @@
+{
+  "@@locale": "nl",
+  "appTitle": "Oboemasu",
+  "kana": "Kana",
+  "hiragana": "Hiragana",
+  "katakana": "Katakana",
+  "kanji": "Kanji",
+  "start": "Starten",
+  "revealIn": "Onthullen over",
+  "progress": "{current} van {total}",
+  "finished": "Voltooid",
+  "meaning": "Betekenis",
+  "about": "Over",
+  "practiceTitle": "Verbeter je spiergeheugen door te oefenen met schrijven",
+  "practiceCopy": "Kies de opties, pak pen en papier en klik op Start.",
+  "practiceCopy2": "Schrijf de kana of kanji voordat de tijd om is en bekijk daarna de streepanimaties.",
+  "kanaSelectionTitle": "Kies hiragana, katakana of beide",
+  "kanjiSelectionTitle": "Kies een niveau"
+  ,"kanaPracticeCopy": "Kies katakana, hiragana of beide, pak pen en papier en klik op Start.","kanaPracticeCopy2": "Schrijf de kana voordat de tijd om is en bekijk daarna de streepanimaties.","kanjiPracticeCopy": "Kies kanji-niveaus, pak pen en papier en klik op Start.","kanjiPracticeCopy2": "Schrijf de kanji voordat de tijd om is en bekijk daarna de streepanimaties."
+  ,"helloWorld": "Hallo wereld!"
+  ,"chooseTitle": "Kies {title}-niveaus"
+  ,"charactersAvailable": "{count} tekens beschikbaar"
+  ,"selectedCharacters": "Geselecteerde tekens"
+  ,"dataLoadError": "De gegevens van {title} konden niet worden geladen."
+  ,"aboutTitle": "Over Oboemasu"
+  ,"aboutCopy": "Oefen Japanse kana en kanji met geanimeerde streepvolgorde."
+  ,"aboutWhyTitle": "Waarom ik dit heb gemaakt"
+  ,"aboutWhyCopy": "Tijdens het leren van Japans merkte ik dat tekens herkennen en lezen niet genoeg was."
+  ,"aboutWhyCopy2": "De meeste flashcard-apps tonen hiragana of katakana en vragen je het te lezen."
+  ,"aboutSource": "Je kunt de broncode van dit project bekijken op"
+  ,"aboutCredits": "Credits"
+  ,"aboutKanjiCredit": "Kanji-streepgegevens komen van"
+  ,"aboutKanaCredit": "Kana-streepgegevens komen van"
+  ,"aboutReferences": "Referenties"
+  ,"aboutReferencesCopy": "Deze bronnen hielpen de studie-ervaring vorm te geven:"
+  ,"aboutCopyright": "Auteursrecht"
+  ,"aboutCopyrightCopy": "Deze site is een opensourceproject onder de GNU AGPL-licentie."
+}

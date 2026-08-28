@@ -1,0 +1,1296 @@
+[
+  {
+    "kanji": "一",
+    "strokes": 1,
+    "meaning": [
+      "one"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "onyomi": [
+      "イチ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "二",
+    "strokes": 2,
+    "meaning": [
+      "two"
+    ],
+    "kunyomi": [
+      "ふた"
+    ],
+    "onyomi": [
+      "ニ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "九",
+    "strokes": 2,
+    "meaning": [
+      "nine"
+    ],
+    "kunyomi": [
+      "ここの"
+    ],
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "七",
+    "strokes": 2,
+    "meaning": [
+      "seven"
+    ],
+    "kunyomi": [
+      "なな",
+      "なの"
+    ],
+    "onyomi": [
+      "シチ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "人",
+    "strokes": 2,
+    "meaning": [
+      "human being",
+      "person"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "入",
+    "strokes": 2,
+    "meaning": [
+      "enter",
+      "put in"
+    ],
+    "kunyomi": [
+      "い",
+      "はい"
+    ],
+    "onyomi": [
+      "ニュウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "八",
+    "strokes": 2,
+    "meaning": [
+      "eight"
+    ],
+    "kunyomi": [
+      "や",
+      "よう"
+    ],
+    "onyomi": [
+      "ハチ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "十",
+    "strokes": 2,
+    "meaning": [
+      "ten"
+    ],
+    "kunyomi": [
+      "とお",
+      "と"
+    ],
+    "onyomi": [
+      "ジュウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "三",
+    "strokes": 3,
+    "meaning": [
+      "three"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "onyomi": [
+      "サン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "上",
+    "strokes": 3,
+    "meaning": [
+      "up"
+    ],
+    "kunyomi": [
+      "うえ",
+      "うわ",
+      "かみ",
+      "あ",
+      "のぼ"
+    ],
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "下",
+    "strokes": 3,
+    "meaning": [
+      "down"
+    ],
+    "kunyomi": [
+      "した",
+      "しも",
+      "さ",
+      "くだ",
+      "お"
+    ],
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "大",
+    "strokes": 3,
+    "meaning": [
+      "big"
+    ],
+    "kunyomi": [
+      "おお"
+    ],
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "女",
+    "strokes": 3,
+    "meaning": [
+      "woman"
+    ],
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "onyomi": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "山",
+    "strokes": 3,
+    "meaning": [
+      "mountain"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "onyomi": [
+      "サン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "川",
+    "strokes": 3,
+    "meaning": [
+      "river"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "土",
+    "strokes": 3,
+    "meaning": [
+      "soil",
+      "earth",
+      "ground"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "千",
+    "strokes": 3,
+    "meaning": [
+      "thousand"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "子",
+    "strokes": 3,
+    "meaning": [
+      "child",
+      "noun suffix"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "onyomi": [
+      "シ",
+      "ス"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "小",
+    "strokes": 3,
+    "meaning": [
+      "small"
+    ],
+    "kunyomi": [
+      "ちい",
+      "こ",
+      "お"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "中",
+    "strokes": 4,
+    "meaning": [
+      "middle",
+      "in"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "onyomi": [
+      "チュウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "五",
+    "strokes": 4,
+    "meaning": [
+      "five"
+    ],
+    "kunyomi": [
+      "いつ"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "六",
+    "strokes": 4,
+    "meaning": [
+      "six"
+    ],
+    "kunyomi": [
+      "む",
+      "むい"
+    ],
+    "onyomi": [
+      "ロク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "円",
+    "strokes": 4,
+    "meaning": [
+      "circle",
+      "yen"
+    ],
+    "kunyomi": [
+      "まる"
+    ],
+    "onyomi": [
+      "エン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "天",
+    "strokes": 4,
+    "meaning": [
+      "heaven"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま"
+    ],
+    "onyomi": [
+      "テン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "日",
+    "strokes": 4,
+    "meaning": [
+      "day",
+      "sun",
+      "Japan"
+    ],
+    "kunyomi": [
+      "ひ",
+      "か"
+    ],
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "月",
+    "strokes": 4,
+    "meaning": [
+      "moon",
+      "month"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "木",
+    "strokes": 4,
+    "meaning": [
+      "tree",
+      "wood"
+    ],
+    "kunyomi": [
+      "き",
+      "こ"
+    ],
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "水",
+    "strokes": 4,
+    "meaning": [
+      "water"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "onyomi": [
+      "スイ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "火",
+    "strokes": 4,
+    "meaning": [
+      "fire"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "出",
+    "strokes": 5,
+    "meaning": [
+      "go out",
+      "put out"
+    ],
+    "kunyomi": [
+      "で",
+      "だ"
+    ],
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "右",
+    "strokes": 5,
+    "meaning": [
+      "right"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "四",
+    "strokes": 5,
+    "meaning": [
+      "four"
+    ],
+    "kunyomi": [
+      "よ",
+      "よん"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "左",
+    "strokes": 5,
+    "meaning": [
+      "left"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "onyomi": [
+      "サ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "本",
+    "strokes": 5,
+    "meaning": [
+      "basis",
+      "book",
+      "this"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "onyomi": [
+      "ホン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "白",
+    "strokes": 5,
+    "meaning": [
+      "white"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しら"
+    ],
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "万",
+    "strokes": 3,
+    "meaning": [
+      "ten thousand"
+    ],
+    "kunyomi": [
+      "n/a"
+    ],
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "今",
+    "strokes": 4,
+    "meaning": [
+      "present",
+      "this"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "午",
+    "strokes": 4,
+    "meaning": [
+      "noon"
+    ],
+    "kunyomi": [
+      "n/a"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "友",
+    "strokes": 4,
+    "meaning": [
+      "friend"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "onyomi": [
+      "ユウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "父",
+    "strokes": 4,
+    "meaning": [
+      "father"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "onyomi": [
+      "フ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "北",
+    "strokes": 5,
+    "meaning": [
+      "north"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "onyomi": [
+      "ホク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "半",
+    "strokes": 5,
+    "meaning": [
+      "half"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "外",
+    "strokes": 5,
+    "meaning": [
+      "outside"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はず"
+    ],
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "母",
+    "strokes": 5,
+    "meaning": [
+      "mother"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "onyomi": [
+      "ボ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "休",
+    "strokes": 6,
+    "meaning": [
+      "rest"
+    ],
+    "kunyomi": [
+      "やす"
+    ],
+    "onyomi": [
+      "キュウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "先",
+    "strokes": 6,
+    "meaning": [
+      "ahead"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "名",
+    "strokes": 6,
+    "meaning": [
+      "name"
+    ],
+    "kunyomi": [
+      "な"
+    ],
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "年",
+    "strokes": 6,
+    "meaning": [
+      "year"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "onyomi": [
+      "ネン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "気",
+    "strokes": 6,
+    "meaning": [
+      "gas",
+      "spirit"
+    ],
+    "kunyomi": [
+      "n/a"
+    ],
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "百",
+    "strokes": 6,
+    "meaning": [
+      "hundred"
+    ],
+    "kunyomi": [
+      "n/a"
+    ],
+    "onyomi": [
+      "ヒャク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "男",
+    "strokes": 7,
+    "meaning": [
+      "man"
+    ],
+    "kunyomi": [
+      "おとこ"
+    ],
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "見",
+    "strokes": 7,
+    "meaning": [
+      "see"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "車",
+    "strokes": 7,
+    "meaning": [
+      "vehicle",
+      "wheel",
+      "car"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "毎",
+    "strokes": 6,
+    "meaning": [
+      "every"
+    ],
+    "kunyomi": [
+      "ごと"
+    ],
+    "onyomi": [
+      "マイ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "行",
+    "strokes": 6,
+    "meaning": [
+      "go",
+      "act",
+      "line"
+    ],
+    "kunyomi": [
+      "い",
+      "ゆ",
+      "おこな"
+    ],
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "西",
+    "strokes": 6,
+    "meaning": [
+      "west"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "onyomi": [
+      "セイ",
+      "サイ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "何",
+    "strokes": 7,
+    "meaning": [
+      "what",
+      "how many"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "来",
+    "strokes": 7,
+    "meaning": [
+      "come"
+    ],
+    "kunyomi": [
+      "く",
+      "きた"
+    ],
+    "onyomi": [
+      "ライ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "学",
+    "strokes": 8,
+    "meaning": [
+      "study",
+      "educational",
+      "institution"
+    ],
+    "kunyomi": [
+      "まな"
+    ],
+    "onyomi": [
+      "ガク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "金",
+    "strokes": 8,
+    "meaning": [
+      "metal",
+      "gold",
+      "money"
+    ],
+    "kunyomi": [
+      "かね",
+      "かな"
+    ],
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "雨",
+    "strokes": 8,
+    "meaning": [
+      "rain"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま"
+    ],
+    "onyomi": [
+      "ウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "国",
+    "strokes": 8,
+    "meaning": [
+      "country"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "onyomi": [
+      "コク"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "東",
+    "strokes": 8,
+    "meaning": [
+      "east"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "長",
+    "strokes": 8,
+    "meaning": [
+      "long",
+      "chief"
+    ],
+    "kunyomi": [
+      "なが"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "前",
+    "strokes": 9,
+    "meaning": [
+      "before",
+      "front"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
+    "onyomi": [
+      "ゼン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "南",
+    "strokes": 9,
+    "meaning": [
+      "south"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "onyomi": [
+      "ナン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "後",
+    "strokes": 9,
+    "meaning": [
+      "after",
+      "back"
+    ],
+    "kunyomi": [
+      "のち",
+      "うし",
+      "あと",
+      "おく"
+    ],
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "食",
+    "strokes": 9,
+    "meaning": [
+      "eat",
+      "food"
+    ],
+    "kunyomi": [
+      "く",
+      "た"
+    ],
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "校",
+    "strokes": 10,
+    "meaning": [
+      "school"
+    ],
+    "kunyomi": [
+      "n/a"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "時",
+    "strokes": 10,
+    "meaning": [
+      "time"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "高",
+    "strokes": 10,
+    "meaning": [
+      "high"
+    ],
+    "kunyomi": [
+      "たか"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "間",
+    "strokes": 12,
+    "meaning": [
+      "interval",
+      "between"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま"
+    ],
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "話",
+    "strokes": 13,
+    "meaning": [
+      "speak"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "onyomi": [
+      "ワ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "電",
+    "strokes": 13,
+    "meaning": [
+      "electricity"
+    ],
+    "kunyomi": [
+      "n/a"
+    ],
+    "onyomi": [
+      "デン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "聞",
+    "strokes": 14,
+    "meaning": [
+      "hear",
+      "listen",
+      "ask"
+    ],
+    "kunyomi": [
+      "き"
+    ],
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "語",
+    "strokes": 14,
+    "meaning": [
+      "language",
+      "word",
+      "tell"
+    ],
+    "kunyomi": [
+      "かた"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "読",
+    "strokes": 14,
+    "meaning": [
+      "read"
+    ],
+    "kunyomi": [
+      "よ"
+    ],
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "生",
+    "strokes": 5,
+    "meaning": [
+      "life",
+      "be born",
+      "student"
+    ],
+    "kunyomi": [
+      "い",
+      "う",
+      "お",
+      "は",
+      "なま",
+      "き"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "level": "N5",
+    "unit": 1
+  },
+  {
+    "kanji": "書",
+    "strokes": 10,
+    "meaning": [
+      "write",
+      "book"
+    ],
+    "kunyomi": [
+      "か"
+    ],
+    "onyomi": [
+      "ショ"
+    ],
+    "level": "N5",
+    "unit": 1
+  }
+]

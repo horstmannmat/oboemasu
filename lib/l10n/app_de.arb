@@ -1,0 +1,38 @@
+{
+  "@@locale": "de",
+  "appTitle": "Oboemasu",
+  "kana": "Kana",
+  "hiragana": "Hiragana",
+  "katakana": "Katakana",
+  "kanji": "Kanji",
+  "start": "Starten",
+  "revealIn": "Anzeige in",
+  "progress": "{current} von {total}",
+  "finished": "Runde abgeschlossen",
+  "meaning": "Bedeutung",
+  "about": "Über",
+  "practiceTitle": "Verbessere dein Muskelgedächtnis durch Schreibübungen",
+  "practiceCopy": "Wähle die Optionen, nimm Papier und Stift und klicke auf Start.",
+  "practiceCopy2": "Schreibe das Kana oder Kanji, bevor die Zeit abläuft, und sieh dir anschließend die Strichanimationen an.",
+  "kanaSelectionTitle": "Wähle Hiragana, Katakana oder beide",
+  "kanjiSelectionTitle": "Wähle eine Stufe"
+  ,"kanaPracticeCopy": "Wähle Katakana, Hiragana oder beide, nimm Papier und Stift und klicke auf Start.","kanaPracticeCopy2": "Schreibe das Kana, bevor die Zeit abläuft, und sieh dir die Strichanimationen an.","kanjiPracticeCopy": "Wähle Kanji-Stufen, nimm Papier und Stift und klicke auf Start.","kanjiPracticeCopy2": "Schreibe das Kanji, bevor die Zeit abläuft, und sieh dir die Strichanimationen an."
+  ,"helloWorld": "Hello World!"
+  ,"chooseTitle": "Choose {title} levels"
+  ,"charactersAvailable": "{count} characters available"
+  ,"selectedCharacters": "Selected characters"
+  ,"dataLoadError": "Could not load {title} data."
+  ,"aboutTitle": "About Oboemasu"
+  ,"aboutCopy": "Practice Japanese kana and kanji with animated stroke order."
+  ,"aboutWhyTitle": "Why I built this"
+  ,"aboutWhyCopy": "In the process of learning Japanese I realised that recognising and reading the characters was not enough."
+  ,"aboutWhyCopy2": "Most flashcard apps show hiragana or katakana and ask you to read it."
+  ,"aboutSource": "You can see this project's source code at"
+  ,"aboutCredits": "Credits"
+  ,"aboutKanjiCredit": "Kanji stroke data comes from"
+  ,"aboutKanaCredit": "Kana stroke data comes from"
+  ,"aboutReferences": "References"
+  ,"aboutReferencesCopy": "These resources helped shape the study experience:"
+  ,"aboutCopyright": "Copyright"
+  ,"aboutCopyrightCopy": "This site is an open-source project maintained under the GNU AGPL license."
+}

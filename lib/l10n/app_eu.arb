@@ -1,0 +1,38 @@
+{
+  "@@locale": "eu",
+  "appTitle": "Oboemasu",
+  "kana": "Kana",
+  "hiragana": "Hiragana",
+  "katakana": "Katakana",
+  "kanji": "Kanji",
+  "start": "Hasi",
+  "revealIn": "Erakusteko",
+  "progress": "{current} / {total}",
+  "finished": "Txanda osatuta",
+  "meaning": "Esanahia",
+  "about": "Honi buruz",
+  "practiceTitle": "Hobetu zure muskulu-memoria idazketa praktikatuz",
+  "practiceCopy": "Hautatu aukerak, hartu papera eta boligrafoa, eta egin klik Hasi botoian.",
+  "practiceCopy2": "Idatzi kana edo kanjia denbora amaitu aurretik, eta ikusi trazu-animazioak.",
+  "kanaSelectionTitle": "Hautatu hiragana, katakana edo biak",
+  "kanjiSelectionTitle": "Hautatu maila bat"
+  ,"kanaPracticeCopy": "Hautatu katakana, hiragana edo biak, hartu papera eta boligrafoa, eta egin klik Hasi.","kanaPracticeCopy2": "Idatzi kana denbora amaitu aurretik, eta ikusi trazu-animazioak.","kanjiPracticeCopy": "Hautatu kanji mailak, hartu papera eta boligrafoa, eta egin klik Hasi.","kanjiPracticeCopy2": "Idatzi kanjia denbora amaitu aurretik, eta ikusi trazu-animazioak."
+  ,"helloWorld": "Kaixo mundua!"
+  ,"chooseTitle": "Hautatu {title} mailak"
+  ,"charactersAvailable": "{count} karaktere erabilgarri"
+  ,"selectedCharacters": "Hautatutako karaktereak"
+  ,"dataLoadError": "Ezin izan dira {title} datuak kargatu."
+  ,"aboutTitle": "Oboemasu-ri buruz"
+  ,"aboutCopy": "Landu japoniar kana eta kanji-en trazu-ordena animatuekin."
+  ,"aboutWhyTitle": "Zergatik sortu nuen hau"
+  ,"aboutWhyCopy": "Japoniera ikastean konturatu nintzen karaktereak ezagutzea eta irakurtzea ez zela nahikoa."
+  ,"aboutWhyCopy2": "Flashcard aplikazio gehienek hiragana edo katakana erakusten dute eta irakurtzeko eskatzen dute."
+  ,"aboutSource": "Proiektu honen iturburu-kodea hemen ikus dezakezu:"
+  ,"aboutCredits": "Kredituak"
+  ,"aboutKanjiCredit": "Kanji trazu-datuak hemendik datoz:"
+  ,"aboutKanaCredit": "Kana trazu-datuak hemendik datoz:"
+  ,"aboutReferences": "Erreferentziak"
+  ,"aboutReferencesCopy": "Baliabide hauek ikasketa-esperientzia sortzen lagundu zuten:"
+  ,"aboutCopyright": "Copyrighta"
+  ,"aboutCopyrightCopy": "Gune hau GNU AGPL lizentziapean mantentzen den kode irekiko proiektua da."
+}

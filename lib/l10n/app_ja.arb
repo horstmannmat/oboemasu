@@ -1,0 +1,38 @@
+{
+  "@@locale": "ja",
+  "appTitle": "Oboemasu",
+  "kana": "かな",
+  "hiragana": "ひらがな",
+  "katakana": "カタカナ",
+  "kanji": "漢字",
+  "start": "開始",
+  "revealIn": "表示まで",
+  "progress": "{current} / {total}",
+  "finished": "ラウンド完了",
+  "meaning": "意味",
+  "about": "このゲームについて",
+  "practiceTitle": "書く練習で筋肉の記憶を鍛えよう",
+  "practiceCopy": "オプションを選び、紙とペンを用意して、開始をクリックしてください。",
+  "practiceCopy2": "時間切れになる前にかなや漢字を書き、その後で筆順アニメーションを確認しましょう。",
+  "kanaSelectionTitle": "ひらがな、カタカナ、または両方を選択",
+  "kanjiSelectionTitle": "レベルを選択"
+  ,"kanaPracticeCopy": "カタカナ、ひらがな、または両方を選び、紙とペンを用意して開始をクリックしてください。","kanaPracticeCopy2": "時間切れになる前にかなを書き、その後で筆順アニメーションを確認しましょう。","kanjiPracticeCopy": "漢字のレベルを選び、紙とペンを用意して開始をクリックしてください。","kanjiPracticeCopy2": "時間切れになる前に漢字を書き、その後で筆順アニメーションを確認しましょう。"
+  ,"helloWorld": "こんにちは！"
+  ,"chooseTitle": "{title}のレベルを選択"
+  ,"charactersAvailable": "{count}文字利用可能"
+  ,"selectedCharacters": "選択した文字"
+  ,"dataLoadError": "{title}のデータを読み込めませんでした。"
+  ,"aboutTitle": "Oboemasuについて"
+  ,"aboutCopy": "日本語のかなと漢字の書き順を練習しましょう。"
+  ,"aboutWhyTitle": "このプロジェクトを作った理由"
+  ,"aboutWhyCopy": "日本語を学ぶ中で、文字を認識して読むだけでは不十分だと気づきました。"
+  ,"aboutWhyCopy2": "多くのフラッシュカードアプリは、ひらがなやカタカナを見せて読み方を尋ねます。"
+  ,"aboutSource": "このプロジェクトのソースコードはこちらです："
+  ,"aboutCredits": "クレジット"
+  ,"aboutKanjiCredit": "漢字の書き順データ："
+  ,"aboutKanaCredit": "かなの書き順データ："
+  ,"aboutReferences": "参考資料"
+  ,"aboutReferencesCopy": "学習体験の作成に役立ったリソース："
+  ,"aboutCopyright": "著作権"
+  ,"aboutCopyrightCopy": "このサイトはGNU AGPLライセンスのオープンソースプロジェクトです。"
+}
