@@ -1,0 +1,19 @@
+flutter_launcher_icons:
+  image_path: "assets/images/icon.png"
+  image_path_ios: "assets/images/icon.png"
+  image_path_macos: "assets/images/icon.png"
+  image_path_linux: "assets/images/icon.png"
+  image_path_windows: "assets/images/icon.png"
+  android:
+    notification_icon: "notification_icon"
+  web:
+    generate: true
+    image_path: "assets/images/icon.png"
+    background_color: "#ffffff"
+    theme_color: "#0066cc"
+  windows:
+    generate: true
+  macos:
+    generate: true
+  linux:
+    generate: true
