@@ -24,7 +24,7 @@ jobs:
     name: Build Android (Release AAB & Debug APK)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Build Android Release AppBundle
         uses: cedvdb/action-flutter-build-android@v1
@@ -53,7 +53,7 @@ jobs:
     name: Build iOS
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Build iOS IPA
         uses: cedvdb/action-flutter-build-ios@v1
