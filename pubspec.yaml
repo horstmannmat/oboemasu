@@ -15,7 +15,7 @@ dependencies:
 
   intl: any
   path_drawing: ^1.0.1
-  url_launcher: ^6.3.2
+  url_launcher: ^6.3.3
   xml: ^7.0.1
 dev_dependencies:
   flutter_test:
