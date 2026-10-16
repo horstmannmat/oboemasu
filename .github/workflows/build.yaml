@@ -218,6 +218,7 @@ jobs:
   build-ios:
     name: Build iOS
     runs-on: macos-latest
+    if: ${{ secrets.IOS_BUILD_CERTIFICATE_BASE64 != '' && secrets.IOS_BUILD_CERTIFICATE_PASSWORD != '' && secrets.IOS_MOBILE_PROVISIONING_PROFILE_BASE64 != '' && secrets.IOS_GITHUB_KEYCHAIN_PASSWORD != '' }}
     steps:
       - uses: actions/checkout@v7
 

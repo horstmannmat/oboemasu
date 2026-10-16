@@ -1,6 +1,26 @@
 import java.util.Properties
 import java.io.FileInputStream
 
+fun detectKeystoreType(keystorePath: String): String {
+    val file = file(keystorePath)
+    if (!file.exists() || file.length() < 4) return "pkcs12"
+
+    FileInputStream(file).use { stream ->
+        val header = ByteArray(4)
+        if (stream.read(header) == 4) {
+            if ((header[0].toInt() and 0xFF) == 0xFE &&
+                (header[1].toInt() and 0xFF) == 0xED &&
+                (header[2].toInt() and 0xFF) == 0xFE &&
+                (header[3].toInt() and 0xFF) == 0xED
+            ) {
+                return "jks"
+            }
+        }
+    }
+
+    return "pkcs12"
+}
+
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
@@ -41,8 +61,10 @@ android {
             create("release") {
                 keyAlias = keystoreProperties["keyAlias"] as String
                 keyPassword = keystoreProperties["keyPassword"] as String
-                storeFile = file(keystoreProperties["storeFile"] as String)
+                val storePath = keystoreProperties["storeFile"] as String
+                storeFile = file(storePath)
                 storePassword = keystoreProperties["storePassword"] as String
+                storeType = detectKeystoreType(storePath)
             }
         }
     }
