@@ -36,7 +36,7 @@ jobs:
     name: Build Android (Release AAB & Debug APK)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Check Android signing secrets
         id: android_secrets
@@ -217,7 +217,7 @@ jobs:
     name: Build iOS
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Check iOS signing secrets
         id: ios_secrets
