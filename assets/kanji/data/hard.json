@@ -1,5 +1,3127 @@
 [
   {
+    "kanji": "分",
+    "strokes": 4,
+    "meaning": [
+      "divide",
+      "part",
+      "minute"
+    ],
+    "kunyomi": [
+      "わ"
+    ],
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "里",
+    "strokes": 7,
+    "meaning": [
+      "countryside",
+      "league",
+      "hometown",
+      "village",
+      "town"
+    ],
+    "kunyomi": [
+      "さと"
+    ],
+    "onyomi": [
+      "リ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "身",
+    "strokes": 7,
+    "meaning": [
+      "body",
+      "oneself"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "的",
+    "strokes": 8,
+    "meaning": [
+      "target",
+      "adjectival suffix"
+    ],
+    "kunyomi": [
+      "まと"
+    ],
+    "onyomi": [
+      "テキ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "阪",
+    "strokes": 7,
+    "meaning": [
+      "heights",
+      "slope"
+    ],
+    "kunyomi": [
+      "さか"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "無",
+    "strokes": 12,
+    "meaning": [
+      "without",
+      "nothing"
+    ],
+    "kunyomi": [
+      "な"
+    ],
+    "onyomi": [
+      "ム",
+      "ブ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "可",
+    "strokes": 5,
+    "meaning": [
+      "able",
+      "approve"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "カ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "尻",
+    "strokes": 5,
+    "meaning": [
+      "buttocks",
+      "hips",
+      "butt",
+      "rear"
+    ],
+    "kunyomi": [
+      "しり"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "岡",
+    "strokes": 8,
+    "meaning": [
+      "mount",
+      "hill",
+      "knoll"
+    ],
+    "kunyomi": [
+      "おか"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "坊",
+    "strokes": 7,
+    "meaning": [
+      "Buddhist priest",
+      "boy",
+      "colloquial person suffix"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "ボウ",
+      "ボツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "韓",
+    "strokes": 18,
+    "meaning": [
+      "korea"
+    ],
+    "kunyomi": [
+      "から",
+      "いげた"
+    ],
+    "onyomi": [
+      "カン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "枕",
+    "strokes": 8,
+    "meaning": [
+      "pillow"
+    ],
+    "kunyomi": [
+      "まくら"
+    ],
+    "onyomi": [
+      "チン",
+      "シン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "丼",
+    "strokes": 5,
+    "meaning": [
+      "bowl",
+      "bowl of food"
+    ],
+    "kunyomi": [
+      "どんぶり"
+    ],
+    "onyomi": [
+      "トン",
+      "タン",
+      "ショウ",
+      "セイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "爪",
+    "strokes": 4,
+    "meaning": [
+      "claw",
+      "nail",
+      "talon"
+    ],
+    "kunyomi": [
+      "つめ",
+      "つま-"
+    ],
+    "onyomi": [
+      "ソウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "寿",
+    "strokes": 7,
+    "meaning": [
+      "longevity",
+      "congratulations",
+      "one's natural life"
+    ],
+    "kunyomi": [
+      "ことぶき",
+      "ことぶ.く",
+      "ことほ.ぐ"
+    ],
+    "onyomi": [
+      "ジュ",
+      "ス",
+      "シュウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "鍋",
+    "strokes": 17,
+    "meaning": [
+      "pot",
+      "pan",
+      "kettle"
+    ],
+    "kunyomi": [
+      "なべ"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "牙",
+    "strokes": 5,
+    "meaning": [
+      "tusk",
+      "fang",
+      "tusk radical (no. 92)"
+    ],
+    "kunyomi": [
+      "きば",
+      "は"
+    ],
+    "onyomi": [
+      "ガ",
+      "ゲ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "狙",
+    "strokes": 8,
+    "meaning": [
+      "aim at",
+      "sight",
+      "shadow",
+      "stalk"
+    ],
+    "kunyomi": [
+      "ねら.う",
+      "ねら.い"
+    ],
+    "onyomi": [
+      "ソ",
+      "ショ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "賂",
+    "strokes": 13,
+    "meaning": [
+      "bribe"
+    ],
+    "kunyomi": [
+      "まいな.い",
+      "まいな.う"
+    ],
+    "onyomi": [
+      "ロ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "阜",
+    "strokes": 8,
+    "meaning": [
+      "hill",
+      "mound",
+      "left village radical (no. 170)"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "フ",
+      "フウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "埼",
+    "strokes": 11,
+    "meaning": [
+      "cape",
+      "spit",
+      "promontory"
+    ],
+    "kunyomi": [
+      "さき",
+      "さい",
+      "みさき"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "孝",
+    "strokes": 7,
+    "meaning": [
+      "filial piety"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "遜",
+    "strokes": 13,
+    "meaning": [
+      "humble",
+      "modest"
+    ],
+    "kunyomi": [
+      "したが.う",
+      "へりくだ.る",
+      "ゆず.る"
+    ],
+    "onyomi": [
+      "ソン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "蜂",
+    "strokes": 13,
+    "meaning": [
+      "bee",
+      "wasp",
+      "hornet"
+    ],
+    "kunyomi": [
+      "はち"
+    ],
+    "onyomi": [
+      "ホウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "酎",
+    "strokes": 10,
+    "meaning": [
+      "sake"
+    ],
+    "kunyomi": [
+      "かも.す"
+    ],
+    "onyomi": [
+      "チュウ",
+      "チュ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "蜜",
+    "strokes": 14,
+    "meaning": [
+      "honey",
+      "nectar",
+      "molasses"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "ミツ",
+      "ビツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "畑",
+    "strokes": 9,
+    "meaning": [
+      "field",
+      "cultivated field"
+    ],
+    "kunyomi": [
+      "はた",
+      "はたけ"
+    ],
+    "onyomi": [],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "誰",
+    "strokes": 15,
+    "meaning": [
+      "who",
+      "someone"
+    ],
+    "kunyomi": [
+      "だれ"
+    ],
+    "onyomi": [
+      "スイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "謎",
+    "strokes": 16,
+    "meaning": [
+      "riddle",
+      "puzzle",
+      "enigma",
+      "hint",
+      "tip"
+    ],
+    "kunyomi": [
+      "なぞ"
+    ],
+    "onyomi": [
+      "メイ",
+      "ベイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "俺",
+    "strokes": 10,
+    "meaning": [
+      "i",
+      "myself"
+    ],
+    "kunyomi": [
+      "おれ",
+      "われ"
+    ],
+    "onyomi": [
+      "エン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "叱",
+    "strokes": 5,
+    "meaning": [
+      "scold",
+      "reprove"
+    ],
+    "kunyomi": [
+      "しか.る"
+    ],
+    "onyomi": [
+      "シツ",
+      "シチ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "頃",
+    "strokes": 11,
+    "meaning": [
+      "time",
+      "period"
+    ],
+    "kunyomi": [
+      "ころ"
+    ],
+    "onyomi": [
+      "ケイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "呪",
+    "strokes": 8,
+    "meaning": [
+      "spell",
+      "curse",
+      "charm",
+      "malediction"
+    ],
+    "kunyomi": [
+      "まじな.う",
+      "のろ.い",
+      "まじな.い",
+      "のろ.う"
+    ],
+    "onyomi": [
+      "ジュ",
+      "シュ",
+      "シュウ",
+      "ズ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "賭",
+    "strokes": 15,
+    "meaning": [
+      "gamble",
+      "wager",
+      "bet"
+    ],
+    "kunyomi": [
+      "か.ける",
+      "かけ"
+    ],
+    "onyomi": [
+      "ト"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "斬",
+    "strokes": 11,
+    "meaning": [
+      "beheading",
+      "kill",
+      "murder"
+    ],
+    "kunyomi": [
+      "き.る"
+    ],
+    "onyomi": [
+      "ザン",
+      "サン",
+      "セン",
+      "ゼン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "椅",
+    "strokes": 12,
+    "meaning": [
+      "chair"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "イ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "鍵",
+    "strokes": 17,
+    "meaning": [
+      "key"
+    ],
+    "kunyomi": [
+      "かぎ"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "粧",
+    "strokes": 12,
+    "meaning": [
+      "cosmetics",
+      "adorn (one's person)"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "ショウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "崖",
+    "strokes": 11,
+    "meaning": [
+      "cliff",
+      "bluff",
+      "precipice"
+    ],
+    "kunyomi": [
+      "がけ",
+      "きし",
+      "はて"
+    ],
+    "onyomi": [
+      "ガイ",
+      "ゲ",
+      "ギ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "箸",
+    "strokes": 15,
+    "meaning": [
+      "chopsticks"
+    ],
+    "kunyomi": [
+      "はし"
+    ],
+    "onyomi": [
+      "チョ",
+      "チャク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "芯",
+    "strokes": 7,
+    "meaning": [
+      "wick"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "シン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "貼",
+    "strokes": 12,
+    "meaning": [
+      "stick",
+      "paste",
+      "apply"
+    ],
+    "kunyomi": [
+      "は.る",
+      "つ.く"
+    ],
+    "onyomi": [
+      "テン",
+      "チョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "闇",
+    "strokes": 17,
+    "meaning": [
+      "get dark",
+      "gloom",
+      "disorder"
+    ],
+    "kunyomi": [
+      "やみ",
+      "くら.い"
+    ],
+    "onyomi": [
+      "アン",
+      "オン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "隙",
+    "strokes": 13,
+    "meaning": [
+      "crevice",
+      "fissure",
+      "discord",
+      "opportunity",
+      "leisure"
+    ],
+    "kunyomi": [
+      "すき",
+      "す.く",
+      "す.かす",
+      "ひま"
+    ],
+    "onyomi": [
+      "ゲキ",
+      "キャク",
+      "ケキ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "脇",
+    "strokes": 10,
+    "meaning": [
+      "armpit",
+      "the other way",
+      "another place",
+      "flank",
+      "supporting role"
+    ],
+    "kunyomi": [
+      "わき",
+      "わけ"
+    ],
+    "onyomi": [
+      "キョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "巾",
+    "strokes": 3,
+    "meaning": [
+      "towel",
+      "hanging scroll",
+      "width",
+      "cloth radical (no. 50)"
+    ],
+    "kunyomi": [
+      "おお.い",
+      "ちきり",
+      "きれ"
+    ],
+    "onyomi": [
+      "キン",
+      "フク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "丈",
+    "strokes": 3,
+    "meaning": [
+      "length",
+      "ten shaku",
+      "measure",
+      "mr.",
+      "ms.",
+      "height",
+      "stature",
+      "all (one has)",
+      "only",
+      "that's all",
+      "merely"
+    ],
+    "kunyomi": [
+      "たけ",
+      "だけ"
+    ],
+    "onyomi": [
+      "ジョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "唐",
+    "strokes": 10,
+    "meaning": [
+      "t'ang",
+      "china",
+      "foreign"
+    ],
+    "kunyomi": [
+      "から"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "鬱",
+    "strokes": 29,
+    "meaning": [
+      "gloom",
+      "depression",
+      "melancholy",
+      "luxuriant"
+    ],
+    "kunyomi": [
+      "うっ.する",
+      "ふさ.ぐ",
+      "しげ.る"
+    ],
+    "onyomi": [
+      "ウツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "茨",
+    "strokes": 9,
+    "meaning": [
+      "briar",
+      "thorn"
+    ],
+    "kunyomi": [
+      "いばら",
+      "かや",
+      "くさぶき"
+    ],
+    "onyomi": [
+      "シ",
+      "ジ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "戴",
+    "strokes": 17,
+    "meaning": [
+      "be crowned with",
+      "live under (a ruler)",
+      "receive"
+    ],
+    "kunyomi": [
+      "いただ.く"
+    ],
+    "onyomi": [
+      "タイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "哺",
+    "strokes": 10,
+    "meaning": [
+      "nurse",
+      "suckle"
+    ],
+    "kunyomi": [
+      "はぐく.む",
+      "ふく.む"
+    ],
+    "onyomi": [
+      "ホ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "傲",
+    "strokes": 13,
+    "meaning": [
+      "be proud"
+    ],
+    "kunyomi": [
+      "おご.る",
+      "あなど.る"
+    ],
+    "onyomi": [
+      "ゴウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "栃",
+    "strokes": 9,
+    "meaning": [
+      "horse chestnut",
+      "(kokuji)"
+    ],
+    "kunyomi": [
+      "とち"
+    ],
+    "onyomi": [],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "脊",
+    "strokes": 10,
+    "meaning": [
+      "stature",
+      "height"
+    ],
+    "kunyomi": [
+      "せ",
+      "せい"
+    ],
+    "onyomi": [
+      "セキ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "蔑",
+    "strokes": 14,
+    "meaning": [
+      "ignore",
+      "despise",
+      "neglect",
+      "ridicule"
+    ],
+    "kunyomi": [
+      "ないがしろ",
+      "なみ.する",
+      "くらい",
+      "さげす.む"
+    ],
+    "onyomi": [
+      "ベツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "挨",
+    "strokes": 10,
+    "meaning": [
+      "approach",
+      "draw near",
+      "push open"
+    ],
+    "kunyomi": [
+      "ひら.く"
+    ],
+    "onyomi": [
+      "アイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "宛",
+    "strokes": 8,
+    "meaning": [
+      "address",
+      "just like",
+      "fortunately"
+    ],
+    "kunyomi": [
+      "あ.てる",
+      "-あて",
+      "-づつ",
+      "あたか.も"
+    ],
+    "onyomi": [
+      "エン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "畏",
+    "strokes": 9,
+    "meaning": [
+      "fear",
+      "majestic",
+      "graciously",
+      "be apprehensive"
+    ],
+    "kunyomi": [
+      "おそ.れる",
+      "かしこま.る",
+      "かしこ",
+      "かしこ.し"
+    ],
+    "onyomi": [
+      "イ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "萎",
+    "strokes": 11,
+    "meaning": [
+      "wither",
+      "droop",
+      "lame"
+    ],
+    "kunyomi": [
+      "な",
+      "しお.れる",
+      "しな.びる",
+      "しぼ.む",
+      "な.える"
+    ],
+    "onyomi": [
+      "イ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "咽",
+    "strokes": 9,
+    "meaning": [
+      "throat",
+      "choked",
+      "smothered",
+      "stuffy"
+    ],
+    "kunyomi": [
+      "むせ.ぶ",
+      "むせ.る",
+      "のど",
+      "の.む"
+    ],
+    "onyomi": [
+      "イン",
+      "エン",
+      "エツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "淫",
+    "strokes": 11,
+    "meaning": [
+      "lewdness",
+      "licentiousness"
+    ],
+    "kunyomi": [
+      "ひた.す",
+      "ほしいまま",
+      "みだ.ら",
+      "みだ.れる",
+      "みだり"
+    ],
+    "onyomi": [
+      "イン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "臼",
+    "strokes": 6,
+    "meaning": [
+      "mortar"
+    ],
+    "kunyomi": [
+      "うす",
+      "うすづ.く"
+    ],
+    "onyomi": [
+      "キュウ",
+      "グ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "餌",
+    "strokes": 14,
+    "meaning": [
+      "food",
+      "bait",
+      "prey",
+      "tempting profit"
+    ],
+    "kunyomi": [
+      "え",
+      "えば",
+      "えさ",
+      "もち"
+    ],
+    "onyomi": [
+      "ジ",
+      "ニ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "怨",
+    "strokes": 9,
+    "meaning": [
+      "grudge",
+      "show resentment",
+      "be jealous"
+    ],
+    "kunyomi": [
+      "うら.む",
+      "うらみ",
+      "うら.めしい"
+    ],
+    "onyomi": [
+      "エン",
+      "オン",
+      "ウン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "臆",
+    "strokes": 17,
+    "meaning": [
+      "timidity",
+      "heart",
+      "mind",
+      "fear",
+      "cowardly"
+    ],
+    "kunyomi": [
+      "むね",
+      "おくする"
+    ],
+    "onyomi": [
+      "オク",
+      "ヨク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "苛",
+    "strokes": 8,
+    "meaning": [
+      "torment",
+      "scold",
+      "chastise"
+    ],
+    "kunyomi": [
+      "いじ.める",
+      "さいな.む",
+      "いらだ.つ",
+      "からい",
+      "こまかい"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "蓋",
+    "strokes": 13,
+    "meaning": [
+      "cover",
+      "lid",
+      "flap"
+    ],
+    "kunyomi": [
+      "ふた",
+      "けだ.し",
+      "おお.う",
+      "かさ",
+      "かこう"
+    ],
+    "onyomi": [
+      "ガイ",
+      "カイ",
+      "コウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "骸",
+    "strokes": 16,
+    "meaning": [
+      "bone",
+      "body",
+      "corpse"
+    ],
+    "kunyomi": [
+      "むくろ"
+    ],
+    "onyomi": [
+      "ガイ",
+      "カイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "柿",
+    "strokes": 9,
+    "meaning": [
+      "persimmon"
+    ],
+    "kunyomi": [
+      "かき"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "顎",
+    "strokes": 18,
+    "meaning": [
+      "jaw",
+      "chin",
+      "gill"
+    ],
+    "kunyomi": [
+      "あご",
+      "あぎと"
+    ],
+    "onyomi": [
+      "ガク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "葛",
+    "strokes": 11,
+    "meaning": [
+      "arrowroot",
+      "kudzu"
+    ],
+    "kunyomi": [
+      "つづら",
+      "くず"
+    ],
+    "onyomi": [
+      "カツ",
+      "カチ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "釜",
+    "strokes": 10,
+    "meaning": [
+      "kettle",
+      "cauldron",
+      "iron pot"
+    ],
+    "kunyomi": [
+      "かま"
+    ],
+    "onyomi": [
+      "フ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "瓦",
+    "strokes": 5,
+    "meaning": [
+      "tile",
+      "gram"
+    ],
+    "kunyomi": [
+      "かわら",
+      "ぐらむ"
+    ],
+    "onyomi": [
+      "ガ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "玩",
+    "strokes": 8,
+    "meaning": [
+      "play",
+      "take pleasure in",
+      "trifle with",
+      "make sport of"
+    ],
+    "kunyomi": [
+      "もちあそ.ぶ",
+      "もてあそ.ぶ"
+    ],
+    "onyomi": [
+      "ガン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "畿",
+    "strokes": 15,
+    "meaning": [
+      "capital",
+      "suburbs of capital"
+    ],
+    "kunyomi": [
+      "みやこ"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "僅",
+    "strokes": 12,
+    "meaning": [
+      "a wee bit"
+    ],
+    "kunyomi": [
+      "わず.か"
+    ],
+    "onyomi": [
+      "キン",
+      "ゴン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "串",
+    "strokes": 7,
+    "meaning": [
+      "spit",
+      "skewer"
+    ],
+    "kunyomi": [
+      "くし",
+      "つらぬ.く"
+    ],
+    "onyomi": [
+      "カン",
+      "ケン",
+      "セン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "窟",
+    "strokes": 13,
+    "meaning": [
+      "cavern"
+    ],
+    "kunyomi": [
+      "いわや",
+      "いはや",
+      "あな"
+    ],
+    "onyomi": [
+      "クツ",
+      "コツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "稽",
+    "strokes": 16,
+    "meaning": [
+      "think",
+      "consider"
+    ],
+    "kunyomi": [
+      "かんが.える",
+      "とど.める"
+    ],
+    "onyomi": [
+      "ケイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "詣",
+    "strokes": 13,
+    "meaning": [
+      "visit a temple",
+      "arrive",
+      "attain"
+    ],
+    "kunyomi": [
+      "けい.する",
+      "まい.る",
+      "いた.る",
+      "もう.でる"
+    ],
+    "onyomi": [
+      "ケイ",
+      "ゲイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "桁",
+    "strokes": 10,
+    "meaning": [
+      "beam",
+      "girder",
+      "spar",
+      "unit or column (accounting)"
+    ],
+    "kunyomi": [
+      "けた"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "舷",
+    "strokes": 11,
+    "meaning": [
+      "gunwale"
+    ],
+    "kunyomi": [
+      "ふなばた",
+      "ふなべり"
+    ],
+    "onyomi": [
+      "ゲン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "股",
+    "strokes": 8,
+    "meaning": [
+      "thigh",
+      "crotch"
+    ],
+    "kunyomi": [
+      "また",
+      "もも"
+    ],
+    "onyomi": [
+      "コ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "乞",
+    "strokes": 3,
+    "meaning": [
+      "beg",
+      "invite",
+      "ask"
+    ],
+    "kunyomi": [
+      "こ.う"
+    ],
+    "onyomi": [
+      "コツ",
+      "キツ",
+      "キ",
+      "キケ",
+      "コチ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "勾",
+    "strokes": 4,
+    "meaning": [
+      "be bent",
+      "slope",
+      "capture"
+    ],
+    "kunyomi": [
+      "かぎ",
+      "ま.がる"
+    ],
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "喉",
+    "strokes": 12,
+    "meaning": [
+      "throat",
+      "voice"
+    ],
+    "kunyomi": [
+      "のど"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "慌",
+    "strokes": 12,
+    "meaning": [
+      "disconcerted",
+      "be confused",
+      "lose one's head"
+    ],
+    "kunyomi": [
+      "あわ.てる",
+      "あわ.ただしい"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "梗",
+    "strokes": 11,
+    "meaning": [
+      "for the most part",
+      "close up",
+      "flower stem"
+    ],
+    "kunyomi": [
+      "ふさぐ",
+      "やまにれ",
+      "おおむね"
+    ],
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "痕",
+    "strokes": 11,
+    "meaning": [
+      "mark",
+      "foot print"
+    ],
+    "kunyomi": [
+      "あと"
+    ],
+    "onyomi": [
+      "コン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "挫",
+    "strokes": 10,
+    "meaning": [
+      "crush",
+      "break",
+      "sprain",
+      "discourage"
+    ],
+    "kunyomi": [
+      "くじ.く",
+      "くじ.ける"
+    ],
+    "onyomi": [
+      "ザ",
+      "サ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "塞",
+    "strokes": 13,
+    "meaning": [
+      "close",
+      "shut",
+      "cover",
+      "block",
+      "obstruct"
+    ],
+    "kunyomi": [
+      "ふさ.ぐ",
+      "とりで",
+      "み.ちる"
+    ],
+    "onyomi": [
+      "ソク",
+      "サイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "柵",
+    "strokes": 9,
+    "meaning": [
+      "stockade",
+      "fence",
+      "weir",
+      "entwine around"
+    ],
+    "kunyomi": [
+      "しがら.む",
+      "しがらみ",
+      "とりで",
+      "やらい"
+    ],
+    "onyomi": [
+      "サク",
+      "サン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "拶",
+    "strokes": 9,
+    "meaning": [
+      "be imminent",
+      "draw close"
+    ],
+    "kunyomi": [
+      "せま.る"
+    ],
+    "onyomi": [
+      "サツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "璽",
+    "strokes": 19,
+    "meaning": [
+      "emperor's seal"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "ジ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "嫉",
+    "strokes": 13,
+    "meaning": [
+      "jealous",
+      "envy"
+    ],
+    "kunyomi": [
+      "そね.む",
+      "ねた.む",
+      "にく.む"
+    ],
+    "onyomi": [
+      "シツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "腫",
+    "strokes": 13,
+    "meaning": [
+      "tumor",
+      "swelling"
+    ],
+    "kunyomi": [
+      "は.れる",
+      "は.れ",
+      "は.らす",
+      "く.む",
+      "はれもの"
+    ],
+    "onyomi": [
+      "シュ",
+      "ショウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "蹴",
+    "strokes": 19,
+    "meaning": [
+      "kick"
+    ],
+    "kunyomi": [
+      "け.る"
+    ],
+    "onyomi": [
+      "シュク",
+      "シュウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "拭",
+    "strokes": 9,
+    "meaning": [
+      "wipe",
+      "mop",
+      "swab"
+    ],
+    "kunyomi": [
+      "ぬぐ.う",
+      "ふ.く"
+    ],
+    "onyomi": [
+      "ショク",
+      "シキ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "腎",
+    "strokes": 13,
+    "meaning": [
+      "kidney"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "ジン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "裾",
+    "strokes": 13,
+    "meaning": [
+      "cuff",
+      "hem",
+      "foot of mountain"
+    ],
+    "kunyomi": [
+      "すそ"
+    ],
+    "onyomi": [
+      "キョ",
+      "コ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "凄",
+    "strokes": 10,
+    "meaning": [
+      "uncanny",
+      "weird",
+      "threatening",
+      "horrible"
+    ],
+    "kunyomi": [
+      "さむ.い",
+      "すご.い",
+      "すさ.まじい"
+    ],
+    "onyomi": [
+      "セイ",
+      "サイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "醒",
+    "strokes": 16,
+    "meaning": [
+      "awake",
+      "be disillusioned",
+      "sober up"
+    ],
+    "kunyomi": [
+      "さ.ます",
+      "さ.める"
+    ],
+    "onyomi": [
+      "セイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "戚",
+    "strokes": 11,
+    "meaning": [
+      "grieve",
+      "relatives"
+    ],
+    "kunyomi": [
+      "いた.む",
+      "うれ.える",
+      "みうち"
+    ],
+    "onyomi": [
+      "ソク",
+      "セキ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "煎",
+    "strokes": 13,
+    "meaning": [
+      "broil",
+      "parch",
+      "roast",
+      "boil"
+    ],
+    "kunyomi": [
+      "せん.じる",
+      "い.る",
+      "に.る"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "羨",
+    "strokes": 13,
+    "meaning": [
+      "envious",
+      "be jealous",
+      "covet"
+    ],
+    "kunyomi": [
+      "うらや.む",
+      "あまり"
+    ],
+    "onyomi": [
+      "セン",
+      "エン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "腺",
+    "strokes": 13,
+    "meaning": [
+      "gland"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "セン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "詮",
+    "strokes": 13,
+    "meaning": [
+      "discussion",
+      "methods called for",
+      "selection",
+      "result"
+    ],
+    "kunyomi": [
+      "せん.ずる",
+      "かい",
+      "あき.らか"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "膳",
+    "strokes": 16,
+    "meaning": [
+      "small low table",
+      "tray"
+    ],
+    "kunyomi": [
+      "かしわ",
+      "すす.める",
+      "そな.える"
+    ],
+    "onyomi": [
+      "ゼン",
+      "セン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "曽",
+    "strokes": 11,
+    "meaning": [
+      "formerly",
+      "once",
+      "before",
+      "ever",
+      "never",
+      "ex-"
+    ],
+    "kunyomi": [
+      "かつ",
+      "かつて",
+      "すなわち"
+    ],
+    "onyomi": [
+      "ソウ",
+      "ソ",
+      "ゾウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "遡",
+    "strokes": 13,
+    "meaning": [
+      "go upstream",
+      "retrace the past"
+    ],
+    "kunyomi": [
+      "さかのぼ.る"
+    ],
+    "onyomi": [
+      "ソ",
+      "サク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "痩",
+    "strokes": 12,
+    "meaning": [
+      "get thin"
+    ],
+    "kunyomi": [
+      "や.せる"
+    ],
+    "onyomi": [
+      "ソウ",
+      "チュウ",
+      "シュウ",
+      "シュ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "捉",
+    "strokes": 10,
+    "meaning": [
+      "catch",
+      "capture"
+    ],
+    "kunyomi": [
+      "とら.える"
+    ],
+    "onyomi": [
+      "ソク",
+      "サク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "袖",
+    "strokes": 10,
+    "meaning": [
+      "sleeve",
+      "wing (building)",
+      "extension",
+      "give cold shoulder"
+    ],
+    "kunyomi": [
+      "そで"
+    ],
+    "onyomi": [
+      "シュウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "唾",
+    "strokes": 11,
+    "meaning": [
+      "saliva",
+      "sputum"
+    ],
+    "kunyomi": [
+      "つば",
+      "つばき"
+    ],
+    "onyomi": [
+      "ダ",
+      "タ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "堆",
+    "strokes": 11,
+    "meaning": [
+      "piled high"
+    ],
+    "kunyomi": [
+      "うずたか.い"
+    ],
+    "onyomi": [
+      "タイ",
+      "ツイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "綻",
+    "strokes": 14,
+    "meaning": [
+      "be rent",
+      "ripped",
+      "unravel",
+      "run",
+      "begin to open",
+      "smile"
+    ],
+    "kunyomi": [
+      "ほころ.びる"
+    ],
+    "onyomi": [
+      "タン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "捗",
+    "strokes": 10,
+    "meaning": [
+      "make progress"
+    ],
+    "kunyomi": [
+      "はかど.る"
+    ],
+    "onyomi": [
+      "チョク",
+      "ホ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "潰",
+    "strokes": 15,
+    "meaning": [
+      "crush",
+      "smash",
+      "break",
+      "dissipate"
+    ],
+    "kunyomi": [
+      "つぶ.す",
+      "つぶ.れる",
+      "つい.える"
+    ],
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "諦",
+    "strokes": 16,
+    "meaning": [
+      "truth",
+      "clarity",
+      "abandon",
+      "give up"
+    ],
+    "kunyomi": [
+      "あきら.める",
+      "つまびらか",
+      "まこと"
+    ],
+    "onyomi": [
+      "テイ",
+      "タイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "溺",
+    "strokes": 13,
+    "meaning": [
+      "drown",
+      "indulge"
+    ],
+    "kunyomi": [
+      "いばり",
+      "おぼ.れる"
+    ],
+    "onyomi": [
+      "デキ",
+      "ジョウ",
+      "ニョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "妬",
+    "strokes": 8,
+    "meaning": [
+      "jealous",
+      "envy"
+    ],
+    "kunyomi": [
+      "ねた.む",
+      "そね.む",
+      "つも.る",
+      "ふさ.ぐ"
+    ],
+    "onyomi": [
+      "ト",
+      "ツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "頓",
+    "strokes": 13,
+    "meaning": [
+      "suddenly",
+      "immediately",
+      "in a hurry",
+      "arrange",
+      "stay in place",
+      "bow",
+      "kowtow"
+    ],
+    "kunyomi": [
+      "にわか.に",
+      "とん.と",
+      "つまず.く",
+      "とみ.に",
+      "ぬかずく"
+    ],
+    "onyomi": [
+      "トン",
+      "トツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "匂",
+    "strokes": 4,
+    "meaning": [
+      "fragrant",
+      "stink",
+      "glow",
+      "insinuate",
+      "(kokuji)"
+    ],
+    "kunyomi": [
+      "にお.う",
+      "にお.い",
+      "にお.わせる"
+    ],
+    "onyomi": [],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "捻",
+    "strokes": 11,
+    "meaning": [
+      "twirl",
+      "twist",
+      "play with"
+    ],
+    "kunyomi": [
+      "ね.じる",
+      "ねじ.る",
+      "ひね.くる",
+      "ひね.る"
+    ],
+    "onyomi": [
+      "ネン",
+      "ジョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "罵",
+    "strokes": 15,
+    "meaning": [
+      "abuse",
+      "insult"
+    ],
+    "kunyomi": [
+      "ののし.る"
+    ],
+    "onyomi": [
+      "バ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "剥",
+    "strokes": 10,
+    "meaning": [
+      "come off",
+      "peel",
+      "fade",
+      "discolor"
+    ],
+    "kunyomi": [
+      "へ.ぐ",
+      "へず.る",
+      "む.く",
+      "む.ける",
+      "は.がれる",
+      "は.ぐ",
+      "は.げる",
+      "は.がす"
+    ],
+    "onyomi": [
+      "ハク",
+      "ホク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "斑",
+    "strokes": 12,
+    "meaning": [
+      "spot",
+      "blemish",
+      "speck",
+      "patches"
+    ],
+    "kunyomi": [
+      "ふ",
+      "まだら"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "氾",
+    "strokes": 5,
+    "meaning": [
+      "spread out",
+      "wide"
+    ],
+    "kunyomi": [
+      "ひろ.がる"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "汎",
+    "strokes": 6,
+    "meaning": [
+      "pan-"
+    ],
+    "kunyomi": [
+      "ただよ.う",
+      "ひろ.い"
+    ],
+    "onyomi": [
+      "ハン",
+      "ブ",
+      "フウ",
+      "ホウ",
+      "ホン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "膝",
+    "strokes": 15,
+    "meaning": [
+      "knee",
+      "lap"
+    ],
+    "kunyomi": [
+      "ひざ"
+    ],
+    "onyomi": [
+      "シツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "肘",
+    "strokes": 7,
+    "meaning": [
+      "elbow",
+      "arm"
+    ],
+    "kunyomi": [
+      "ひじ"
+    ],
+    "onyomi": [
+      "チュウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "蔽",
+    "strokes": 15,
+    "meaning": [
+      "cover",
+      "shade",
+      "mantle",
+      "capsize",
+      "be ruined"
+    ],
+    "kunyomi": [
+      "おお.う",
+      "おお.い"
+    ],
+    "onyomi": [
+      "ヘイ",
+      "ヘツ",
+      "フツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "貌",
+    "strokes": 14,
+    "meaning": [
+      "form",
+      "appearance",
+      "countenance"
+    ],
+    "kunyomi": [
+      "かたち",
+      "かたどる"
+    ],
+    "onyomi": [
+      "ボウ",
+      "バク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "勃",
+    "strokes": 9,
+    "meaning": [
+      "suddenness",
+      "rise"
+    ],
+    "kunyomi": [
+      "おこ.る",
+      "にわかに"
+    ],
+    "onyomi": [
+      "ボツ",
+      "ホツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "昧",
+    "strokes": 9,
+    "meaning": [
+      "dark",
+      "foolish"
+    ],
+    "kunyomi": [
+      "くら.い",
+      "むさぼ.る"
+    ],
+    "onyomi": [
+      "マイ",
+      "バイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "冥",
+    "strokes": 10,
+    "meaning": [
+      "dark"
+    ],
+    "kunyomi": [
+      "くら.い"
+    ],
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "麺",
+    "strokes": 16,
+    "meaning": [
+      "noodles",
+      "wheat flour"
+    ],
+    "kunyomi": [
+      "むぎこ"
+    ],
+    "onyomi": [
+      "メン",
+      "ベン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "餅",
+    "strokes": 14,
+    "meaning": [
+      "mochi rice cake"
+    ],
+    "kunyomi": [
+      "もち",
+      "もちい"
+    ],
+    "onyomi": [
+      "ヘイ",
+      "ヒョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "妖",
+    "strokes": 7,
+    "meaning": [
+      "attractive",
+      "bewitching",
+      "calamity"
+    ],
+    "kunyomi": [
+      "あや.しい",
+      "なま.めく",
+      "わざわ.い"
+    ],
+    "onyomi": [
+      "ヨウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "沃",
+    "strokes": 7,
+    "meaning": [
+      "fertility"
+    ],
+    "kunyomi": [
+      "そそ.ぐ"
+    ],
+    "onyomi": [
+      "ヨウ",
+      "ヨク",
+      "オク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "侶",
+    "strokes": 9,
+    "meaning": [
+      "companion",
+      "follower"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "onyomi": [
+      "リョ",
+      "ロ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "弄",
+    "strokes": 7,
+    "meaning": [
+      "play with",
+      "tamper",
+      "trifle with"
+    ],
+    "kunyomi": [
+      "いじく.る",
+      "ろう.する",
+      "いじ.る",
+      "ひねく.る",
+      "たわむ.れる",
+      "もてあそ.ぶ"
+    ],
+    "onyomi": [
+      "ロウ",
+      "ル"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "麓",
+    "strokes": 19,
+    "meaning": [
+      "foot of a mountain"
+    ],
+    "kunyomi": [
+      "ふもと"
+    ],
+    "onyomi": [
+      "ロク"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "刹",
+    "strokes": 8,
+    "meaning": [
+      "temple"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "セチ",
+      "セツ",
+      "サツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "喩",
+    "strokes": 12,
+    "meaning": [
+      "metaphor",
+      "compare"
+    ],
+    "kunyomi": [
+      "たと.える",
+      "さと.す"
+    ],
+    "onyomi": [
+      "ユ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "嗅",
+    "strokes": 13,
+    "meaning": [
+      "smell",
+      "sniff",
+      "scent"
+    ],
+    "kunyomi": [
+      "か.ぐ"
+    ],
+    "onyomi": [
+      "キュウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "嘲",
+    "strokes": 15,
+    "meaning": [
+      "ridicule",
+      "insult"
+    ],
+    "kunyomi": [
+      "あざけ.る"
+    ],
+    "onyomi": [
+      "チョウ",
+      "トウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "毀",
+    "strokes": 13,
+    "meaning": [
+      "break",
+      "destroy",
+      "censure",
+      "be chipped",
+      "be scratched",
+      "be broken",
+      "be ruined"
+    ],
+    "kunyomi": [
+      "こぼ.つ",
+      "こわ.す",
+      "こぼ.れる",
+      "こわ.れる",
+      "そし.る",
+      "やぶ.る"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "彙",
+    "strokes": 13,
+    "meaning": [
+      "same kind",
+      "collect",
+      "classify",
+      "category",
+      "hedgehog"
+    ],
+    "kunyomi": [
+      "はりねずみ"
+    ],
+    "onyomi": [
+      "イ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "恣",
+    "strokes": 10,
+    "meaning": [
+      "selfish",
+      "arbitrary"
+    ],
+    "kunyomi": [
+      "ほしいまま"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "惧",
+    "strokes": 11,
+    "meaning": [
+      "fear",
+      "be afraid of",
+      "dread"
+    ],
+    "kunyomi": [
+      "おそ.れる"
+    ],
+    "onyomi": [
+      "ク",
+      "グ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "慄",
+    "strokes": 13,
+    "meaning": [
+      "fear"
+    ],
+    "kunyomi": [
+      "ふる.える",
+      "おそ.れる",
+      "おのの.く"
+    ],
+    "onyomi": [
+      "リツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "憬",
+    "strokes": 15,
+    "meaning": [
+      "yearn for",
+      "aspire to",
+      "admire"
+    ],
+    "kunyomi": [
+      "あこが.れる"
+    ],
+    "onyomi": [
+      "ケイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "拉",
+    "strokes": 8,
+    "meaning": [
+      "latin",
+      "kidnap",
+      "crush"
+    ],
+    "kunyomi": [
+      "らっ.する",
+      "ひし.ぐ",
+      "くだ.く"
+    ],
+    "onyomi": [
+      "ラツ",
+      "ラ",
+      "ロウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "摯",
+    "strokes": 15,
+    "meaning": [
+      "gift",
+      "seriousness"
+    ],
+    "kunyomi": [
+      "いた.る"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "曖",
+    "strokes": 17,
+    "meaning": [
+      "dark",
+      "not clear"
+    ],
+    "kunyomi": [
+      "くら.い"
+    ],
+    "onyomi": [
+      "アイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "楷",
+    "strokes": 13,
+    "meaning": [
+      "square character style",
+      "correctness"
+    ],
+    "kunyomi": [],
+    "onyomi": [
+      "カイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "璧",
+    "strokes": 18,
+    "meaning": [
+      "sphere",
+      "ball"
+    ],
+    "kunyomi": [
+      "たま"
+    ],
+    "onyomi": [
+      "ヘキ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "瘍",
+    "strokes": 14,
+    "meaning": [
+      "swelling",
+      "boil",
+      "tumor"
+    ],
+    "kunyomi": [
+      "かさ"
+    ],
+    "onyomi": [
+      "ヨウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "箋",
+    "strokes": 14,
+    "meaning": [
+      "paper",
+      "label",
+      "letter",
+      "composition"
+    ],
+    "kunyomi": [
+      "ふだ"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "籠",
+    "strokes": 22,
+    "meaning": [
+      "basket",
+      "devote oneself",
+      "seclude oneself",
+      "cage",
+      "coop",
+      "implied"
+    ],
+    "kunyomi": [
+      "かご",
+      "こ.める",
+      "こも.る",
+      "こ.む"
+    ],
+    "onyomi": [
+      "ロウ",
+      "ル"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "緻",
+    "strokes": 16,
+    "meaning": [
+      "fine (i.e. not coarse)"
+    ],
+    "kunyomi": [
+      "こまか.い"
+    ],
+    "onyomi": [
+      "チ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "羞",
+    "strokes": 11,
+    "meaning": [
+      "feel ashamed"
+    ],
+    "kunyomi": [
+      "はじ.る",
+      "すすめ.る",
+      "は.ずかしい"
+    ],
+    "onyomi": [
+      "シュウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "訃",
+    "strokes": 9,
+    "meaning": [
+      "obituary"
+    ],
+    "kunyomi": [
+      "しらせ"
+    ],
+    "onyomi": [
+      "フ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "諧",
+    "strokes": 16,
+    "meaning": [
+      "harmony"
+    ],
+    "kunyomi": [
+      "かな.う",
+      "やわ.らぐ"
+    ],
+    "onyomi": [
+      "カイ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "貪",
+    "strokes": 11,
+    "meaning": [
+      "covet",
+      "indulge in"
+    ],
+    "kunyomi": [
+      "むさぼ.る"
+    ],
+    "onyomi": [
+      "タン",
+      "ドン",
+      "トン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "踪",
+    "strokes": 15,
+    "meaning": [
+      "remains",
+      "clue",
+      "footprint"
+    ],
+    "kunyomi": [
+      "あと"
+    ],
+    "onyomi": [
+      "ソウ",
+      "ショウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "辣",
+    "strokes": 14,
+    "meaning": [
+      "pungent",
+      "spicy",
+      "harsh",
+      "cruel",
+      "severe"
+    ],
+    "kunyomi": [
+      "から.い"
+    ],
+    "onyomi": [
+      "ラツ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "錮",
+    "strokes": 16,
+    "meaning": [
+      "confinement",
+      "to tie"
+    ],
+    "kunyomi": [
+      "ふさ.ぐ"
+    ],
+    "onyomi": [
+      "コ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "塡",
+    "strokes": 13,
+    "meaning": [
+      "fill in",
+      "fill up",
+      "make good"
+    ],
+    "kunyomi": [
+      "はま.る",
+      "うず.める",
+      "は.める",
+      "ふさ.ぐ"
+    ],
+    "onyomi": [
+      "テン",
+      "チン"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
+    "kanji": "頰",
+    "strokes": 16,
+    "meaning": [
+      "cheeks",
+      "jaw"
+    ],
+    "kunyomi": [
+      "ほお",
+      "ほほ"
+    ],
+    "onyomi": [
+      "キョウ"
+    ],
+    "level": "Hard",
+    "unit": 1
+  },
+  {
     "kanji": "薔",
     "strokes": 16,
     "meaning": [
@@ -14,7 +3136,8 @@
       "ショク",
       "ソウ"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "unit": 1
   },
   {
     "kanji": "謄",
@@ -30,7 +3153,8 @@
     "onyomi": [
       "トウ"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "unit": 1
   },
   {
     "kanji": "遊戯",
@@ -42,7 +3166,8 @@
     "onyomi": [
       "ユーギ"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "unit": 1
   },
   {
     "kanji": "禁錮",
@@ -55,7 +3180,8 @@
     "onyomi": [
       "キンコ"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "unit": 1
   },
   {
     "kanji": "鋳型",
@@ -68,28 +3194,8 @@
     "onyomi": [
       "イガタ"
     ],
-    "level": "Hard"
-  },
-  {
-    "kanji": "蓋",
-    "strokes": 13,
-    "meaning": [
-      "lid",
-      "cover"
-    ],
-    "kunyomi": [
-      "ふた",
-      "けだ.し",
-      "おお.う",
-      "かさ",
-      "かこう"
-    ],
-    "onyomi": [
-      "ガイ",
-      "カイ",
-      " コウ"
-    ],
-    "level": "Hard"
+    "level": "Hard",
+    "unit": 1
   },
   {
     "kanji": "朽",
@@ -104,6 +3210,7 @@
     "onyomi": [
       "キュウ"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "unit": 1
   }
 ]
