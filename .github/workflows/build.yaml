@@ -42,8 +42,9 @@ jobs:
         id: android_secrets
         env:
           KEYSTORE: ${{ secrets.ANDROID_RELEASE_KEY }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}
         run: |
-          if [ -n "$KEYSTORE" ]; then
+          if [ -n "$KEYSTORE" ] && [ -n "$KEYSTORE_PASSWORD" ]; then
             echo "configured=true" >> "$GITHUB_OUTPUT"
           else
             echo "configured=false" >> "$GITHUB_OUTPUT"
@@ -218,7 +219,6 @@ jobs:
   build-ios:
     name: Build iOS
     runs-on: macos-latest
-    if: ${{ secrets.IOS_BUILD_CERTIFICATE_BASE64 != '' && secrets.IOS_BUILD_CERTIFICATE_PASSWORD != '' && secrets.IOS_MOBILE_PROVISIONING_PROFILE_BASE64 != '' && secrets.IOS_GITHUB_KEYCHAIN_PASSWORD != '' }}
     steps:
       - uses: actions/checkout@v7
 
@@ -226,8 +226,11 @@ jobs:
         id: ios_secrets
         env:
           CERT: ${{ secrets.IOS_BUILD_CERTIFICATE_BASE64 }}
+          CERT_PASS: ${{ secrets.IOS_BUILD_CERTIFICATE_PASSWORD }}
+          PROFILE: ${{ secrets.IOS_MOBILE_PROVISIONING_PROFILE_BASE64 }}
+          KEYCHAIN_PASS: ${{ secrets.IOS_GITHUB_KEYCHAIN_PASSWORD }}
         run: |
-          if [ -n "$CERT" ]; then
+          if [ -n "$CERT" ] && [ -n "$CERT_PASS" ] && [ -n "$PROFILE" ] && [ -n "$KEYCHAIN_PASS" ]; then
             echo "configured=true" >> "$GITHUB_OUTPUT"
           else
             echo "configured=false" >> "$GITHUB_OUTPUT"
