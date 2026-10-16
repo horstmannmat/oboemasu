@@ -26,83 +26,47 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Java
-        uses: actions/setup-java@v4
+      - name: Build Android Release AppBundle
+        uses: cedvdb/action-flutter-build-android@v1
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          keystore-base64: ${{ secrets.ANDROID_RELEASE_KEY }}
+          keystore-password: "${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}"
+          build-cmd: flutter build appbundle --release
+          working-directory: ./
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: 'stable'
-          cache: true
-
-      - name: Configure Android signing
-        env:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
-          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
-        run: |
-          if [ -n "$ANDROID_KEYSTORE_BASE64" ]; then
-            echo "$ANDROID_KEYSTORE_BASE64" | base64 --decode > android/app/upload-keystore.jks
-            cat <<EOF > android/key.properties
-          storePassword=$ANDROID_KEYSTORE_PASSWORD
-          keyPassword=$ANDROID_KEY_PASSWORD
-          keyAlias=$ANDROID_KEY_ALIAS
-          storeFile=../app/upload-keystore.jks
-          EOF
-          fi
-
-      - name: Install dependencies
-        run: flutter pub get
-
-      - name: Build Debug APK
+      - name: Build Android Debug APK
         run: flutter build apk --debug
 
-      - name: Build Release AppBundle
-        run: flutter build appbundle --release
-
-      - name: Upload Debug APK
+      - name: Archive Release AppBundle
         uses: actions/upload-artifact@v4
         with:
-          name: android-debug-apk
-          path: build/app/outputs/flutter-apk/app-debug.apk
-
-      - name: Upload Release AppBundle
-        uses: actions/upload-artifact@v4
-        with:
-          name: android-release-aab
+          name: release-aab
           path: build/app/outputs/bundle/release/app-release.aab
 
+      - name: Archive Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
+
   build-ios:
-    name: Build iOS (Unsigned Release)
+    name: Build iOS
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
+      - name: Build iOS IPA
+        uses: cedvdb/action-flutter-build-ios@v1
         with:
-          channel: 'stable'
-          cache: true
+          flutterfire: 'false'
+          build-cmd: flutter build ipa --release --export-options-plist=ios/GithubActionsExportOptions.plist
+          certificate-base64: ${{ secrets.IOS_BUILD_CERTIFICATE_BASE64 }}
+          certificate-password: ${{ secrets.IOS_BUILD_CERTIFICATE_PASSWORD }}
+          provisioning-profile-base64: ${{ secrets.IOS_MOBILE_PROVISIONING_PROFILE_BASE64 }}
+          keychain-password: ${{ secrets.IOS_GITHUB_KEYCHAIN_PASSWORD }}
 
-      - name: Install dependencies
-        run: flutter pub get
-
-      - name: Build iOS (No Codesign)
-        run: flutter build ios --release --no-codesign
-
-      - name: Package unsigned IPA
-        run: |
-          mkdir -p build/ios/ipa/Payload
-          cp -r build/ios/iphoneos/Runner.app build/ios/ipa/Payload/
-          cd build/ios/ipa
-          zip -r Runner-unsigned.ipa Payload
-
-      - name: Upload iOS Unsigned IPA
+      - name: Archive IPA
         uses: actions/upload-artifact@v4
         with:
-          name: ios-release-unsigned-ipa
-          path: build/ios/ipa/Runner-unsigned.ipa
+          name: release-ipa
+          path: build/ios/ipa/*.ipa
