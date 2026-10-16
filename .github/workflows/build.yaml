@@ -97,6 +97,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: google-play-upload
     if: >-
+      github.ref == 'refs/heads/main' &&
       github.event_name != 'pull_request' &&
       (github.event_name != 'workflow_dispatch' || inputs.upload_android) &&
       contains(format(',horstmannmat,{0},', vars.ALLOWED_DEVS), format(',{0},', github.actor)) &&
@@ -135,6 +136,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: google-play-publish
     if: >-
+      github.ref == 'refs/heads/main' &&
       github.event_name != 'pull_request' &&
       (github.event_name != 'workflow_dispatch' || inputs.publish_android) &&
       contains(format(',horstmannmat,{0},', vars.ALLOWED_DEVS), format(',{0},', github.actor)) &&
