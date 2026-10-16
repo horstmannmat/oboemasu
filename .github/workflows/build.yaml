@@ -1,9 +1,21 @@
 name: Build
 
-# **What it does**: Build Android (release AppBundle & debug APK) and iOS
+# **What it does**: Build Android (release AppBundle & debug APK) and iOS,
+# with manual jobs to upload and publish Android to Google Play Console
 
 on:
   workflow_dispatch:
+    inputs:
+      upload_android:
+        description: 'Allow uploading Android release to Google Play (internal)'
+        required: false
+        default: true
+        type: boolean
+      publish_android:
+        description: 'Allow publishing Android release to Google Play (production)'
+        required: false
+        default: true
+        type: boolean
   push:
     branches:
       - main
@@ -26,13 +38,43 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build Android Release AppBundle
+      - name: Check Android signing secrets
+        id: android_secrets
+        env:
+          KEYSTORE: ${{ secrets.ANDROID_RELEASE_KEY }}
+        run: |
+          if [ -n "$KEYSTORE" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build Android Release AppBundle (Signed)
+        if: steps.android_secrets.outputs.configured == 'true'
         uses: cedvdb/action-flutter-build-android@v1
         with:
           keystore-base64: ${{ secrets.ANDROID_RELEASE_KEY }}
           keystore-password: "${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}"
           build-cmd: flutter build appbundle --release
           working-directory: ./
+
+      - name: Set up Java (Unsigned fallback)
+        if: steps.android_secrets.outputs.configured == 'false'
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Flutter (Unsigned fallback)
+        if: steps.android_secrets.outputs.configured == 'false'
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Build Android Release AppBundle (Unsigned fallback)
+        if: steps.android_secrets.outputs.configured == 'false'
+        run: flutter build appbundle --release
 
       - name: Build Android Debug APK
         run: flutter build apk --debug
@@ -49,13 +91,147 @@ jobs:
           name: debug-apk
           path: build/app/outputs/flutter-apk/app-debug.apk
 
+  upload-android:
+    name: Upload Android to Google Play (Internal)
+    needs: build-android
+    runs-on: ubuntu-latest
+    environment: google-play-upload
+    if: >-
+      github.event_name != 'pull_request' &&
+      (github.event_name != 'workflow_dispatch' || inputs.upload_android) &&
+      contains(format(',horstmannmat,{0},', vars.ALLOWED_DEVS), format(',{0},', github.actor)) &&
+      contains(format(',horstmannmat,{0},', vars.ALLOWED_DEVS), format(',{0},', github.triggering_actor))
+    steps:
+      - name: Verify allowed developer
+        env:
+          ACTOR: ${{ github.actor }}
+          TRIGGERING_ACTOR: ${{ github.triggering_actor }}
+          ALLOWED_DEVS: ${{ vars.ALLOWED_DEVS }}
+        run: |
+          ALLOWED=",horstmannmat,${ALLOWED_DEVS},"
+          if [[ "$ALLOWED" != *",${ACTOR},"* ]] || [[ "$ALLOWED" != *",${TRIGGERING_ACTOR},"* ]]; then
+            echo "Error: User '${TRIGGERING_ACTOR}' (actor: '${ACTOR}') is not authorized to upload."
+            exit 1
+          fi
+
+      - name: Download Release AppBundle
+        uses: actions/download-artifact@v4
+        with:
+          name: release-aab
+          path: build/app/outputs/bundle/release
+
+      - name: Upload to Google Play (Internal Track)
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: eus.math.oboemasu
+          releaseFiles: build/app/outputs/bundle/release/app-release.aab
+          tracks: internal
+          status: completed
+
+  publish-android:
+    name: Publish Android on Google Play (Production)
+    needs: upload-android
+    runs-on: ubuntu-latest
+    environment: google-play-publish
+    if: >-
+      github.event_name != 'pull_request' &&
+      (github.event_name != 'workflow_dispatch' || inputs.publish_android) &&
+      contains(format(',horstmannmat,{0},', vars.ALLOWED_DEVS), format(',{0},', github.actor)) &&
+      contains(format(',horstmannmat,{0},', vars.ALLOWED_DEVS), format(',{0},', github.triggering_actor))
+    steps:
+      - name: Verify allowed developer
+        env:
+          ACTOR: ${{ github.actor }}
+          TRIGGERING_ACTOR: ${{ github.triggering_actor }}
+          ALLOWED_DEVS: ${{ vars.ALLOWED_DEVS }}
+        run: |
+          ALLOWED=",horstmannmat,${ALLOWED_DEVS},"
+          if [[ "$ALLOWED" != *",${ACTOR},"* ]] || [[ "$ALLOWED" != *",${TRIGGERING_ACTOR},"* ]]; then
+            echo "Error: User '${TRIGGERING_ACTOR}' (actor: '${ACTOR}') is not authorized to publish."
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Promote Internal Release to Production
+        env:
+          GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          PACKAGE_NAME: eus.math.oboemasu
+        run: |
+          pip install --quiet google-api-python-client google-auth
+          python3 - << 'EOF'
+          import json
+          import os
+          from google.oauth2 import service_account
+          from googleapiclient.discovery import build
+
+          package_name = os.environ["PACKAGE_NAME"]
+          creds_info = json.loads(os.environ["GOOGLE_PLAY_SERVICE_ACCOUNT_JSON"])
+          creds = service_account.Credentials.from_service_account_info(
+              creds_info,
+              scopes=["https://www.googleapis.com/auth/androidpublisher"],
+          )
+          service = build("androidpublisher", "v3", credentials=creds)
+
+          edit = service.edits().insert(body={}, packageName=package_name).execute()
+          edit_id = edit["id"]
+
+          internal_track = (
+              service.edits()
+              .tracks()
+              .get(editId=edit_id, packageName=package_name, track="internal")
+              .execute()
+          )
+          releases = internal_track.get("releases", [])
+          if not releases:
+              raise RuntimeError("No releases found on internal track to promote.")
+
+          latest_release = releases[0]
+          version_codes = latest_release.get("versionCodes", [])
+
+          service.edits().tracks().update(
+              editId=edit_id,
+              packageName=package_name,
+              track="production",
+              body={
+                  "track": "production",
+                  "releases": [
+                      {
+                          "name": latest_release.get("name"),
+                          "versionCodes": version_codes,
+                          "status": "completed",
+                      }
+                  ],
+              },
+          ).execute()
+
+          service.edits().commit(editId=edit_id, packageName=package_name).execute()
+          print(f"Successfully promoted versionCodes {version_codes} to production.")
+          EOF
+
   build-ios:
     name: Build iOS
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build iOS IPA
+      - name: Check iOS signing secrets
+        id: ios_secrets
+        env:
+          CERT: ${{ secrets.IOS_BUILD_CERTIFICATE_BASE64 }}
+        run: |
+          if [ -n "$CERT" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build iOS IPA (Signed)
+        if: steps.ios_secrets.outputs.configured == 'true'
         uses: cedvdb/action-flutter-build-ios@v1
         with:
           flutterfire: 'false'
@@ -64,6 +240,22 @@ jobs:
           certificate-password: ${{ secrets.IOS_BUILD_CERTIFICATE_PASSWORD }}
           provisioning-profile-base64: ${{ secrets.IOS_MOBILE_PROVISIONING_PROFILE_BASE64 }}
           keychain-password: ${{ secrets.IOS_GITHUB_KEYCHAIN_PASSWORD }}
+
+      - name: Set up Flutter (No Codesign fallback)
+        if: steps.ios_secrets.outputs.configured == 'false'
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Build iOS (No Codesign fallback)
+        if: steps.ios_secrets.outputs.configured == 'false'
+        run: |
+          flutter build ios --release --no-codesign
+          mkdir -p build/ios/ipa/Payload
+          cp -r build/ios/iphoneos/Runner.app build/ios/ipa/Payload/
+          cd build/ios/ipa
+          zip -r Runner-unsigned.ipa Payload
 
       - name: Archive IPA
         uses: actions/upload-artifact@v4
