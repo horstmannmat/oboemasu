@@ -39,19 +39,21 @@ class RemoteData {
     final items = <StudyItem>[];
     for (final level in KanjiLevel.values) {
       final data = jsonDecode(await rootBundle.loadString('assets/kanji/data/${level.jsonValue.toLowerCase()}.json')) as List<dynamic>;
-      items.addAll(data.map((value) {
-        final kanji = Kanji.fromJson(value as Map<String, dynamic>);
-        return StudyItem(
-          optionKey: kanji.level.jsonValue,
-          glyph: kanji.kanji,
-          subtitle: [
-            if (kanji.kunyomi.isNotEmpty) 'Kunyomi: ${kanji.kunyomi.join(', ')}',
-            if (kanji.onyomi.isNotEmpty) 'Onyomi: ${kanji.onyomi.join(', ')}',
-          ].join('\n'),
-          meaning: kanji.meaning.join(', '),
-          strokeUrls: kanjiStrokeUrls(kanji),
-        );
-      }));
+      items.addAll(
+        data
+            .map((value) => Kanji.fromJson(value as Map<String, dynamic>))
+            .where((kanji) => kanji.meaning.isNotEmpty && (kanji.kunyomi.isNotEmpty || kanji.onyomi.isNotEmpty))
+            .map((kanji) => StudyItem(
+                  optionKey: kanji.level.jsonValue,
+                  glyph: kanji.kanji,
+                  subtitle: [
+                    if (kanji.kunyomi.isNotEmpty) 'Kunyomi: ${kanji.kunyomi.join(', ')}',
+                    if (kanji.onyomi.isNotEmpty) 'Onyomi: ${kanji.onyomi.join(', ')}',
+                  ].join('\n'),
+                  meaning: kanji.meaning.join(', '),
+                  strokeUrls: kanjiStrokeUrls(kanji),
+                )),
+      );
     }
     return items;
   }

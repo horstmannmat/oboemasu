@@ -46,3 +46,27 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+upload-keystore.jksdef keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}android/key.propertiesstorePassword=YOUR_KEYSTORE_PASSWORD
+keyPassword=YOUR_ALIAS_PASSWORD
+keyAlias=upload
+storeFile=../app/upload-keystore.jks
