@@ -80,13 +80,13 @@ jobs:
         run: flutter build apk --debug
 
       - name: Archive Release AppBundle
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-aab
           path: build/app/outputs/bundle/release/app-release.aab
 
       - name: Archive Debug APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: debug-apk
           path: build/app/outputs/flutter-apk/app-debug.apk
@@ -258,7 +258,7 @@ jobs:
           zip -r Runner-unsigned.ipa Payload
 
       - name: Archive IPA
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-ipa
           path: build/ios/ipa/*.ipa
